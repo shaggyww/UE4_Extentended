@@ -1,0 +1,21 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{7994D4E5-4F70-C351-AEF8-39AA949C3956}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "TeamAI_Test",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AIModule"
+			]
+		},
+		{
+			"Name": "ExtNodeEditor",
+			"Type": "Editor",
+			"LoadingPhase":  "PostEngineInit"
+		}
+	]
+}
